@@ -1,0 +1,76 @@
+{
+    "GET": [
+        {
+            "label": "ID Juego",
+            "name": "id_juego",
+            "type": "number",
+            "placeholder": "Introduce el ID del juego"
+        }
+    ],
+    "POST": [
+        {
+            "label": "Nombre",
+            "name": "nombre",
+            "type": "text",
+            "placeholder": "Introduce el nombre del juego"
+        },
+        {
+            "label": "Género",
+            "name": "genero",
+            "type": "text",
+            "placeholder": "Introduce el género del juego"
+        },
+        {
+            "label": "Fecha de Lanzamiento",
+            "name": "fecha_lanzamiento",
+            "type": "date",
+            "placeholder": "Introduce la fecha de lanzamiento"
+        },
+        {
+            "label": "ID Desarrollador",
+            "name": "id_desarrollador",
+            "type": "number",
+            "placeholder": "Introduce el ID del desarrollador"
+        }
+    ],
+    "PUT": [
+        {
+            "label": "ID Juego",
+            "name": "id_juego",
+            "type": "number",
+            "placeholder": "Introduce el ID del juego"
+        },
+        {
+            "label": "Nombre",
+            "name": "nombre",
+            "type": "text",
+            "placeholder": "Introduce el nombre del juego"
+        },
+        {
+            "label": "Género",
+            "name": "genero",
+            "type": "text",
+            "placeholder": "Introduce el género del juego"
+        },
+        {
+            "label": "Fecha de Lanzamiento",
+            "name": "fecha_lanzamiento",
+            "type": "date",
+            "placeholder": "Introduce la fecha de lanzamiento"
+        },
+        {
+            "label": "ID Desarrollador",
+            "name": "id_desarrollador",
+            "type": "number",
+            "placeholder": "Introduce el ID del desarrollador"
+        }
+    ],
+    "DELETE": [
+        {
+            "label": "ID Juego",
+            "name": "id_juego",
+            "type": "number",
+            "placeholder": "Introduce el ID del juego"
+        }
+    ]
+}
