@@ -1,17 +1,18 @@
 $(document).ready(
     function(){
         $("#method").change(function(){
-            console.log($(this).val())
-            $.getJSON("juegos.json", function(juegos) {
+            $.getJSON("json/juegos.json", function(juegos) {
             let submit = $("<input>").attr("type", "submit").attr("value", "Enviar");
             let select = $("#method");
 
-                let method = $(this).val();
+                let method = select.val();
                 let form = $("#form");
 
                 form.find("input").remove();
-                form.append(select);
+                form.find("label").remove();
+                form.find("br").remove();
                 let br = $("<br>");
+                form.append(br.clone())
                 let tabla = juegos[method];
 
                 tabla.forEach(function(campo) {
