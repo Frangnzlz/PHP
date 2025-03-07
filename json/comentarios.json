@@ -1,0 +1,77 @@
+{
+    "GET": [
+        {
+            "label": "ID Juego",
+            "name": "id_juego",
+            "type": "number",
+            "placeholder": "Introduce el ID del juego"
+        }
+    ],
+    "POST": [
+        {
+            "label": "ID Juego",
+            "name": "id_juego",
+            "type": "number",
+            "placeholder": "Introduce el ID del juego"
+        },
+        {
+            "label": "Puntuación",
+            "name": "puntuacion",
+            "type": "number",
+            "placeholder": "Introduce la puntuación"
+        },
+        {
+            "label": "Comentario",
+            "name": "comentario",
+            "type": "text",
+            "placeholder": "Escribe tu comentario",
+            "maxlength": "255"
+        },
+        {
+            "label": "Fecha",
+            "name": "fecha",
+            "type": "date",
+            "placeholder": "Introduce la fecha"
+        }
+    ],
+    "PUT": [
+        {
+            "label": "ID Reseña",
+            "name": "id_reseña",
+            "type": "number",
+            "placeholder": "Introduce el ID de la reseña"
+        },
+        {
+            "label": "ID Juego",
+            "name": "id_juego",
+            "type": "number",
+            "placeholder": "Introduce el ID del juego"
+        },
+        {
+            "label": "Puntuación",
+            "name": "puntuacion",
+            "type": "number",
+            "placeholder": "Introduce la puntuación"
+        },
+        {
+            "label": "Comentario",
+            "name": "comentario",
+            "type": "text",
+            "placeholder": "Escribe tu comentario"
+        },
+        {
+            "label": "Fecha",
+            "name": "fecha",
+            "type": "date",
+            "placeholder": "Introduce la fecha"
+        }
+    ],
+    "DELETE": [
+        {
+            "label": "ID Reseña",
+            "name": "id_reseña",
+            "type": "number",
+            "placeholder": "Introduce el ID de la reseña"
+        }
+    ]
+}
